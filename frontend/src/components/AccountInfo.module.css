@@ -1,0 +1,84 @@
+.account-container {
+    max-width: 600px;
+    margin: 60px auto 40px;
+    padding: 20px;
+    background: rgba(30, 30, 60, 0.95);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.account-container h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.account-container p {
+    font-size: 22px;
+    margin: 8px 0;
+}
+
+.account-container strong {
+    color: #00ffcc;
+}
+
+.holdings-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.holdings-table th,
+.holdings-table td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+}
+
+.holdings-table th {
+    background: rgba(255, 255, 255, 0.1);
+    text-transform: uppercase;
+}
+
+.holdings-table tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.no-holdings {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    background: linear-gradient(135deg, #ff4d4d, #d60000);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reset-btn:hover {
+    background: linear-gradient(135deg, #d60000, #a50000);
+    transform: scale(1.05);
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #f8d7da;
+    background: #721c24;
+    padding: 8px;
+    border-radius: 5px;
+}
+

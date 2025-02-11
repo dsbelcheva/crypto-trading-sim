@@ -1,0 +1,23 @@
+Backend - Java Spring Boot Dependencies:
+- All the needed backend dependencies for the project are described in `pom.xml` file.
+- Spring Boot Starter Web
+- Spring Boot Starter Data JPA
+- Spring Boot Starter WebSocket
+- Spring Boot DevTools
+- PostgreSQL JDBC Driver
+- Java-WebSocket Library
+- Jackson Databind
+- Mockito
+- Spring Boot Starter Test
+
+Frontend - React Dependencies:
+- All the needed frontend dependencies for the project are described in `package.json` file.
+- React
+- React DOM
+- React Router DOM
+- Axios
+- Styled Components
+- React Icons
+- @testing-library/react
+- @testing-library/jest-dom
+- @testing-library/user-event

@@ -1,0 +1,79 @@
+.history-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(30, 30, 60, 0.95);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.history-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.history-table th,
+.history-table td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.history-table th {
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.history-table td {
+    font-size: 19px;
+    padding: 14px;
+}
+
+.history-table tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.success {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.error {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.no-history {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+
+.profit {
+    background-color: rgba(34, 139, 34, 0.2);
+}
+
+.loss {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.profit-text {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.loss-text {
+    color: #dc3545;
+    font-weight: bold;
+}

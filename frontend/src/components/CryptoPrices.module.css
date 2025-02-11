@@ -1,0 +1,128 @@
+.prices-container {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.prices-container h2 {
+    margin-bottom: 20px;
+    margin-top: -2px;
+    font-size: 30px;
+}
+
+.crypto-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.crypto-card {
+    background: rgba(30, 30, 60, 0.95);
+    color: white;
+    padding: 20px;
+    width: 120px;
+    height: 135px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crypto-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.crypto-card h3 {
+    margin: 1px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.crypto-card p.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00ffcc;
+    margin-top: 0px;
+}
+
+.crypto-card .icon {
+    font-size: 28px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+.trade-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: -175px auto;
+    padding: 20px;
+    background: rgba(30, 30, 60, 0.95);
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+.trade-container h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.trade-container select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.trade-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.trade-buttons button {
+    width: 48%;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.trade-container input {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f8d7da;
+    background: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}

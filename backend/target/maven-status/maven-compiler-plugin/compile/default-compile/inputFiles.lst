@@ -1,0 +1,13 @@
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/CyptoTradingSimApplication.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/config/WebConfig.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/controller/PriceController.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/controller/TradeController.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/model/Account.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/model/Holding.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/model/Transaction.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/repository/AccountRepository.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/repository/HoldingRepository.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/repository/TransactionRepository.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/service/AccountService.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/service/TransactionService.java
+/home/dbelcheva-nb/Downloads/Project-Trading/crypto-trading-sim/backend/src/main/java/com/crypto_trading_sim/websocket/KrakenWebSocketClient.java
